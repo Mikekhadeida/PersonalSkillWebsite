@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Tahoma;
+    font-size: 40px;
+    margin: 10px;
+    
+   
+}
+ .box{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;  /*specifc color for background of box for specifc color*/
+    border-left:10px dotted #D0D0FF; 
+   ;
+    /* line-height: 150px; */
+    margin: 10px;
+ }
+
+ .box:last-child {
+    border-left:10px dotted #D0D0FF; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.box:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
