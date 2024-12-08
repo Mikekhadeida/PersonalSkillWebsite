@@ -1,0 +1,63 @@
+h1 {
+    margin: 1px;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+  }
+  
+div {	text-align: center;
+           color: #ff7f8c;
+           background-color: lightblue;
+           margin: auto;
+           font-size: 25px;
+           justify-content: center;
+           padding: 4.5px;
+        }
+ 
+  div.names, button {
+    border: 5px outset #FFFFF0;
+    color: #FA8072;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  div.teams {
+      font-weight: bold;
+    display: inline-grid;
+    border: 5px outset #7FFFD4;
+    background-color: lightblue;
+  }
+  
+  
+  #para1 {
+      color: #E9967A;
+      font-size: 30px;
+  }
+  
+  p {
+      color: #000000;
+  }
+
+  /* Styling for the project cards */
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #3498db;
+  border-radius: 16px;  /* Increased border radius for more rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Hover effect for the project links */
+.project-card a:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds shadow effect on hover */
+}
+
