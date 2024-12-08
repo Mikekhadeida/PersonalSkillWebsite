@@ -1,0 +1,114 @@
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e7ff;
+    margin: 0; 
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    height: 80%;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.chat-screen {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chat-screen .header {
+    background: #111;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #eee;
+}
+
+.chat-screen .message-container {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+.chat-screen .typebox {
+    display: flex;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    align-items: center;
+}
+
+.chat-screen .typebox input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.chat-screen .typebox button {
+    padding: 10px 20px;
+    background-color: #4c51bf;
+    color: #eee;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.chat-screen .typebox button:hover {
+    background-color: #434190;
+}
+
+.chat-screen .message-container .message {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-screen .message-container .message > div {
+    max-width: 80%;
+    background: #fff;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.chat-screen .message-container .message.my-message {
+    justify-content: flex-end;
+}
+
+.chat-screen .message-container .message.other-message {
+    justify-content: flex-start;
+}
+
+.chat-screen .message-container .name {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.chat-screen .message-container .text {
+    word-wrap: break-word;
+}
+
+.chat-screen .message-container .update {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
